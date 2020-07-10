@@ -13,6 +13,19 @@
 		F1789E4724B76F8800002149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1789E4624B76F8800002149 /* Assets.xcassets */; };
 		F1789E4A24B76F8800002149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1789E4924B76F8800002149 /* Preview Assets.xcassets */; };
 		F1789E4D24B76F8800002149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1789E4B24B76F8800002149 /* LaunchScreen.storyboard */; };
+		F1789EA724B846BC00002149 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789E9E24B846BB00002149 /* Poppins-Regular.ttf */; };
+		F1789EA824B846BC00002149 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789E9F24B846BB00002149 /* Poppins-Black.ttf */; };
+		F1789EA924B846BC00002149 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA024B846BB00002149 /* Poppins-Bold.ttf */; };
+		F1789EAA24B846BC00002149 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA124B846BB00002149 /* Poppins-SemiBold.ttf */; };
+		F1789EAB24B846BC00002149 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA224B846BB00002149 /* Poppins-ExtraBold.ttf */; };
+		F1789EAC24B846BC00002149 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA324B846BB00002149 /* Poppins-Medium.ttf */; };
+		F1789EAD24B846BC00002149 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA424B846BB00002149 /* Poppins-ExtraLight.ttf */; };
+		F1789EAE24B846BC00002149 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA524B846BB00002149 /* Poppins-Light.ttf */; };
+		F1789EAF24B846BC00002149 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EA624B846BC00002149 /* Poppins-Thin.ttf */; };
+		F1789EB124B84B6600002149 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EB024B84B6600002149 /* Game.swift */; };
+		F1789EB324B85C2D00002149 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EB224B85C2D00002149 /* CardView.swift */; };
+		F1789EBA24B8761A00002149 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EB924B8761A00002149 /* GameModel.swift */; };
+		F1789EBC24B8826500002149 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EBB24B8826500002149 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		F1789E4924B76F8800002149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1789E4C24B76F8800002149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1789E4E24B76F8800002149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1789E9E24B846BB00002149 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F1789E9F24B846BB00002149 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F1789EA024B846BB00002149 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F1789EA124B846BB00002149 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1789EA224B846BB00002149 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F1789EA324B846BB00002149 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F1789EA424B846BB00002149 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F1789EA524B846BB00002149 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F1789EA624B846BC00002149 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		F1789EB024B84B6600002149 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F1789EB224B85C2D00002149 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F1789EB924B8761A00002149 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F1789EBB24B8826500002149 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 				F1789E4624B76F8800002149 /* Assets.xcassets */,
 				F1789E4B24B76F8800002149 /* LaunchScreen.storyboard */,
 				F1789E4E24B76F8800002149 /* Info.plist */,
+				F1789E9D24B8467900002149 /* Font */,
 				F1789E4824B76F8800002149 /* Preview Content */,
 			);
 			path = "GamesUp!";
@@ -79,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				F1789E4424B76F8700002149 /* ContentView.swift */,
+				F1789EB224B85C2D00002149 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,8 +123,27 @@
 		F1789E5624B7719500002149 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1789EB024B84B6600002149 /* Game.swift */,
+				F1789EB924B8761A00002149 /* GameModel.swift */,
+				F1789EBB24B8826500002149 /* Data.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F1789E9D24B8467900002149 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F1789E9F24B846BB00002149 /* Poppins-Black.ttf */,
+				F1789EA024B846BB00002149 /* Poppins-Bold.ttf */,
+				F1789EA224B846BB00002149 /* Poppins-ExtraBold.ttf */,
+				F1789EA424B846BB00002149 /* Poppins-ExtraLight.ttf */,
+				F1789EA524B846BB00002149 /* Poppins-Light.ttf */,
+				F1789EA324B846BB00002149 /* Poppins-Medium.ttf */,
+				F1789E9E24B846BB00002149 /* Poppins-Regular.ttf */,
+				F1789EA124B846BB00002149 /* Poppins-SemiBold.ttf */,
+				F1789EA624B846BC00002149 /* Poppins-Thin.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +204,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1789EAD24B846BC00002149 /* Poppins-ExtraLight.ttf in Resources */,
 				F1789E4D24B76F8800002149 /* LaunchScreen.storyboard in Resources */,
+				F1789EAA24B846BC00002149 /* Poppins-SemiBold.ttf in Resources */,
+				F1789EA924B846BC00002149 /* Poppins-Bold.ttf in Resources */,
 				F1789E4A24B76F8800002149 /* Preview Assets.xcassets in Resources */,
+				F1789EAB24B846BC00002149 /* Poppins-ExtraBold.ttf in Resources */,
 				F1789E4724B76F8800002149 /* Assets.xcassets in Resources */,
+				F1789EAC24B846BC00002149 /* Poppins-Medium.ttf in Resources */,
+				F1789EA724B846BC00002149 /* Poppins-Regular.ttf in Resources */,
+				F1789EAF24B846BC00002149 /* Poppins-Thin.ttf in Resources */,
+				F1789EAE24B846BC00002149 /* Poppins-Light.ttf in Resources */,
+				F1789EA824B846BC00002149 /* Poppins-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +229,10 @@
 				F1789E4124B76F8700002149 /* AppDelegate.swift in Sources */,
 				F1789E4324B76F8700002149 /* SceneDelegate.swift in Sources */,
 				F1789E4524B76F8700002149 /* ContentView.swift in Sources */,
+				F1789EB124B84B6600002149 /* Game.swift in Sources */,
+				F1789EBA24B8761A00002149 /* GameModel.swift in Sources */,
+				F1789EB324B85C2D00002149 /* CardView.swift in Sources */,
+				F1789EBC24B8826500002149 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

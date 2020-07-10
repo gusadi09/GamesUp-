@@ -8,9 +8,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View{
+    @State var game: Game
+    
     var body: some View {
-        Text("Hello, World!")
+        
     }
 }
 
